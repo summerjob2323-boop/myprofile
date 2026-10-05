@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url(pic/背景.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#name{
+  color: aqua;
+  margin: 40px 10px 30px 120px;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: solid white;
+  margin: 30px 10px -100px 30px;
+}
+
+.nav{
+  background-color: lightgrey;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0 60px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0 ;
+  padding: 0;
+}
+
+.nav ul li{
+  flex: 1;
+  text-align: center;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: black;
+  font: bold;
+  font-size: 12px;
+}
+.nav a:hover{
+  color: dimgrey;
+}
+
+.first{
+  margin: 0 60px;
+  padding: 10px 20px;
+}
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightskyblue;
+}
+.second{
+  margin: 0px 60px 0px 60px;
+  padding: 10px 20px;
+}
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightskyblue;
+}
+
+
+.therd{
+  
+  margin: 0px 60px 0px 60px;
+  padding: 10px 20px;
+  font-family: serif;
+
+}
+
+p{
+  text-indent: 1em;
+  font-family: serif;
+}
+
+main{
+  background-color: white;
+  margin: 0px 60px;
+  padding: 30px 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+body{
+  background-color:rgb(249, 239, 226) ;
+}
+footer{
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+
+  
+}
